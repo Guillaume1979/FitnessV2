@@ -1,3 +1,5 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,6 +22,14 @@ public class Menu {
         List<String> menu = new ArrayList<>();
         return menu;
     }
+
+ /* // création du menu ou des menus (à voir si possible) pour afficher les options utilisateurs "menu principal etc..."
+ public static void displaying{
+        BufferedReader br = new BufferedReader(new FileReader())
+
+    }
+*/
+
 
 
 }
