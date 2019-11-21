@@ -1,0 +1,3 @@
+Ajouter un set
+Afficher les performances sur un exercice
+Quitter le programme

@@ -1,0 +1,25 @@
+Menu avec 3 choix (Ajouter un set, Afficher les perf à partir d'une liste d'exo, Quitter)
+
+1- Ajouter un set
+Besoin de créer le csv de stockage si inexistant
+Alimentation du csv existant avec des exo qui se définissent par : nom + nb de rep + poids -> objet "set"
+Le nom du set sera à sélectionner dans une liste afin d'éviter des noms mal saisis (et s'assurer l'uniformité des données pour exploitation ultérieure)
+
+==> retour au menu principal après la saisie
+
+2- Afficher les perf d'un exo
+
+- affichage de la liste des exos déjà enregistrés (ou sinon d'une liste de tous les exos possibles à partir d'une liste)
+-> sélection à faire
+
+- affiche d'un nouveau menu avec la liste des statistiques possibles
+-> 3 choix :
+	Stats de poids (/répétitions)
+	Stats de nombre répétitions
+	Stats de poids (/set)
+-> sélection
+
+lancement des méthodes de calcul en fonction du choix -> message de réponse avec le résultat
+-> retour au menu principal
+
+
