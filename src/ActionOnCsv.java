@@ -52,7 +52,6 @@ public class ActionOnCsv {
                         String[] s = currentLine.split(";");
                         TrainingSet set = new TrainingSet(s[0], Integer.parseInt(s[1]), Integer.parseInt(s[2]));
                         System.out.println("exo = " + set.getExercice() + " nb rep = " + set.getRepetitions() + " poids = " + set.getWeight());
-                        //System.out.println("toto");
                         sets.add(set);
                     }
                 }
